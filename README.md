@@ -5,7 +5,7 @@ Apply machine learning techniques to solve a real-world challenge: credit card r
 The purpose of our analysis was to apply machine learning to a credit card dataset from LendingClub (a peer to peer lending service company) in order to predict credit risk. We were tasked with using the fillowing six different sampling algorithms:<br>
 - Oversampling with RandomOverSampler and SMOTE
 - Undersampling with ClusterCentroids
-- Combination over- and undersampling with SMOTEENN
+- Combination over- / undersampling with SMOTEENN
 - Ensemble sampling with BalancedRandomForestClassifier and EasyEnsembleClassifier
 
 After sampling the data with each of these algorighms, we evaluated metrics that were gathered to determine which model (if any) could be used to predict future high risk customers.
@@ -67,4 +67,4 @@ F1 / Harmonic Mean: Single summary statistic balancing Precision and Recall.<br>
 ![Easy Ensemble AdaBoost Metrics](https://github.com/jmueller187/Credit_Risk_Analysis/blob/main/Resources/EasyEnsembleAdaBoostMetrics.png)
 
 ## Summary:
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+After reviewing the results of the six sampling models, we saw that the Easy Ensemble AdaBoost Sampling returned the best metrics. Even though this was the top performing model, we do not recommend using any of the models to evaluate and predict credit risk. This is because each model had an extremely low F1 score, which tells us that there was a pronounced imbalance between Precision and Recall scores. As seen in our Results, Precision scores were low and Recall scores were high. Without having a balance between these scores, our models will not be able to predict credit risk accurately.
