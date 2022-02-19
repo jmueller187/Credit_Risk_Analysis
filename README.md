@@ -2,21 +2,22 @@
 Apply machine learning techniques to solve a real-world challenge: credit card risk
 
 ## Overview of the analysis:
-The purpose of our analysis was to apply machine learning to a credit card dataset from LendingClub (a peer to peer lending service company) in order to predict credit risk. We were tasked with using the fillowing six different sampling algorithms:<br>
+The purpose of our analysis was to apply machine learning to a credit card dataset from LendingClub (a peer to peer lending service company) in order to predict credit risk. Our analysis was completed by using the following six sampling algorithms:<br>
 - Oversampling with RandomOverSampler and SMOTE
 - Undersampling with ClusterCentroids
 - Combination over- / undersampling with SMOTEENN
 - Ensemble sampling with BalancedRandomForestClassifier and EasyEnsembleClassifier
 
-After sampling the data with each of these algorighms, we evaluated metrics that were gathered to determine which model (if any) could be used to predict future high risk customers.
+After sampling the data with each of these algorighms, our final task was to evaluate the metrics that were gathered to determine which model (if any) could be used to predict future high risk customers.
 
 ## Results:
-We obtained the following results from each of our six sampling models.<br>
-Our key metrics are defined as follows:<br>
-Balanced Accuracy Score: The average of recall obtained on each class, used to evaluate effectiveness of a binary classifier on imbalanced classes.<br>
-Precision: Percentage of true positive predictions that were correct.<br>
-Recall: Percentage of true positive results that were predicted correctly.<br>
-F1 / Harmonic Mean: Single summary statistic balancing Precision and Recall.<br>
+Our six sampling models produced the following results.<br>
+
+Key metrics for each model include:<br>
+Balanced Accuracy Score - The average of recall obtained on each class, used to evaluate effectiveness of a binary classifier on imbalanced classes.<br>
+Precision - Percentage of true positive predictions that were correct.<br>
+Recall - Percentage of positive results that were predicted correctly.<br>
+F1 / Harmonic Mean - Single summary statistic balancing Precision and Recall.<br>
 
 #### 1. Random Oversampling --
 - Balanced Accuracy Score: 0.6573
