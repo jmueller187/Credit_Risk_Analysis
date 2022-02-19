@@ -11,8 +11,13 @@ The purpose of our analysis was to apply machine learning to a credit card datas
 After sampling the data with each of these algorighms, we evaluated metrics that were gathered to determine which model (if any) could be used to predict future high risk customers.
 
 ## Results:
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-Our results and the key metrics obtained from each sampling model are liste below:
+Our results and the key metrics obtained from each sampling model are listed here.
+Our key metrics are defined as follows:<br>
+Balanced Accuracy Score: The average of recall obtained on each class.
+Precision: Percentage of positive predictions that are correct.
+Recall: Percentage of actual positive results that are predicted correctly.
+F1 / Harmonic Mean: Single summary statistic balancing Precision and Recall.
+
 #### 1. Random Oversampling --
 - Balanced Accuracy Score: 0.6573
 - Precision (high risk): 0.01
