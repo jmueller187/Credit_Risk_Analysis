@@ -14,7 +14,7 @@ After sampling the data with each of these algorighms, our final task was to eva
 Our six sampling models produced the following results.<br>
 
 Key metrics for each model include:<br>
-Balanced Accuracy Score - The average of recall obtained on each class, which measures effectiveness of a binary classifier on imbalanced classes.<br>
+Balanced Accuracy Score - Measures effectiveness of a binary classifier on imbalanced classes to predict both true positives and true negatives.<br>
 Precision - Percentage of true positive predictions that were correct.<br>
 Recall - Percentage of positive results that were predicted correctly.<br>
 F1 / Harmonic Mean - Single summary statistic balancing Precision and Recall.<br>
