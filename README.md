@@ -13,15 +13,15 @@ After sampling the data with each of these algorighms, we evaluated metrics that
 ## Results:
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 Our results and the key metrics obtained from each sampling model are liste below:
-1. Random Oversampling --
+#### 1. Random Oversampling --
 - Balanced Accuracy Score: 0.6573
 - Precision (high risk): 0.01
 - Recall (high risk): 0.71
 - F1 / Harmonic Mean (high risk): 0.02
 
-![Random Oversampling Metrics[(https://github.com/jmueller187/Credit_Risk_Analysis/blob/main/Resources/RandomOversamplingMetrics.png)
+![Random Oversampling Metrics](https://github.com/jmueller187/Credit_Risk_Analysis/blob/main/Resources/RandomOversamplingMetrics.png)
 
-2. SMOTE Oversampling --
+#### 2. SMOTE Oversampling --
 - Balanced Accuracy Score: 0.6622
 - Precision (high risk): 0.01
 - Recall (high risk): 0.63
@@ -29,7 +29,7 @@ Our results and the key metrics obtained from each sampling model are liste belo
 
 ![SMOTE Oversampling Metrics](https://github.com/jmueller187/Credit_Risk_Analysis/blob/main/Resources/SMOTEOversamplingMetrics.png)
 
-3. Cluster Centroids Undersampling --
+#### 3. Cluster Centroids Undersampling --
 - Balanced Accuracy Score: 0.5442
 - Precision (high risk): 0.01
 - Recall (high risk): 0.69
@@ -37,7 +37,7 @@ Our results and the key metrics obtained from each sampling model are liste belo
 
 ![Cluster Centroids Uncersampling Metrics](https://github.com/jmueller187/Credit_Risk_Analysis/blob/main/Resources/UndersamplingMetrics.png)
 
-4. SMOTEENN Combination Sampling --
+#### 4. SMOTEENN Combination Sampling --
 - Balanced Accuracy Score: 0.6447
 - Precision (high risk): 0.01
 - Recall (high risk): 0.72
@@ -45,7 +45,7 @@ Our results and the key metrics obtained from each sampling model are liste belo
 
 ![SMOTEENN Combination Sampling Metrics](https://github.com/jmueller187/Credit_Risk_Analysis/blob/main/Resources/SMOTEENNCombinationSamplingMetrics.png)
 
-5. Balanced Ramdon Forest Ensemble Sampling --
+#### 5. Balanced Ramdon Forest Ensemble Sampling --
 - Balanced Accuracy Score: 0.7885
 - Precision (high risk): 0.03
 - Recall (high risk): 0.70
@@ -53,7 +53,7 @@ Our results and the key metrics obtained from each sampling model are liste belo
 
 ![Random Forest Classifier Metrics](https://github.com/jmueller187/Credit_Risk_Analysis/blob/main/Resources/RandomForestClassifierMetrics.png)
 
-6. Easy Ensemble AdaBoost Sampling --
+#### 6. Easy Ensemble AdaBoost Sampling --
 - Balanced Accuracy Score: 0.9317
 - Precision (high risk): 0.09
 - Recall (high risk): 0.92
